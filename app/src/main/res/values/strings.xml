@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Music</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zero">00:00</string>
+    <string name="facebook_app_id">233697571419509</string>
+    <string name="facebook_login_protocol_scheme">fb233697571419509</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgDanhsachAlbum"
+            app:civ_border_color="#B55107"
+            app:civ_border_width="2dp"
+            android:src="@drawable/binz"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtDanhsachAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Phan Mạnh Quỳnh"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/imgDanhsachAlbum"
+            />
+
+        <TextView
+            android:id="@+id/txtDanhsachSingerAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="2dp"
+            android:ellipsize="end"
+            android:maxWidth="160dp"
+            android:maxLines="1"
+            android:text="Phan Mạnh Quỳnh"
+            android:textColor="#FBFBFB"
+            android:textSize="16sp"
+            android:layout_below="@+id/txtDanhsachAlbum"
+            android:layout_toRightOf="@id/imgDanhsachAlbum"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

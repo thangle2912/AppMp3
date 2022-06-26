@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Chia sẻ"
+        android:id="@+id/share"></item>
+    <item
+        android:title="Tải xuống"
+        android:id="@+id/dowl"></item>
+
+</menu>

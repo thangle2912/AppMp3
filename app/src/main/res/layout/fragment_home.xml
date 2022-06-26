@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+        <fragment
+            android:name="vku.lvthang.appmp3.Fragment.BannerFragment"
+            android:id="@+id/fragmentBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+        <fragment
+            android:name="vku.lvthang.appmp3.Fragment.PlaylistFragment"
+            android:id="@+id/fragmentPlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+        <fragment
+            android:name="vku.lvthang.appmp3.Fragment.ChudevaTheloaiFragment"
+            android:id="@+id/fragmentChudevatheloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+        <fragment
+            android:name="vku.lvthang.appmp3.Fragment.AlbumFragment"
+            android:id="@+id/fragmentAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+        <fragment
+            android:name="vku.lvthang.appmp3.Fragment.BaihatYeuthichFragment"
+            android:id="@+id/fragmentBaihatYeuthich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+
+
+
+<!--        <fragment-->
+<!--            android:name="vku.lvthang.appmp3.Fragment.ListSingerFragment"-->
+<!--            android:id="@+id/fragmentplaylist"-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </fragment>-->
+<!--        <fragment-->
+<!--            android:name="vku.lvthang.appmp3.Fragment.MoodFragment"-->
+<!--            android:id="@+id/fragmentmood"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </fragment>-->
+<!--        <fragment-->
+<!--            android:name="vku.lvthang.appmp3.Fragment.HitsVietFragment"-->
+<!--            android:id="@+id/fragmenthits"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </fragment>-->
+<!--        <fragment-->
+<!--            android:name="vku.lvthang.appmp3.Fragment.TamsuFragment"-->
+<!--            android:id="@+id/fragmenttamsu"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </fragment>-->
+    </LinearLayout>
+</ScrollView>

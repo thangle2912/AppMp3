@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="12dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CVitemTheloaitheochude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="12dp">
+        <ImageView
+            android:id="@+id/imgDanhsachTheloai"
+            android:scaleType="centerCrop"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/denvau"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/txtDanhsachTheloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Những bản nhạc bất hủ asdasd"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#BFBCBC"
+        android:textAlignment="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:maxWidth="200dp"
+        android:ellipsize="end"
+        tools:ignore="RtlCompat" />
+
+
+</LinearLayout>
